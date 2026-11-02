@@ -6,4 +6,6 @@ def main(royxat):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    x=len(royxat)//2
+    return royxat[x:]+royxat[:x]
+print(main(["Python", "Matematika", "Ingliz tili", "Fizika"]))

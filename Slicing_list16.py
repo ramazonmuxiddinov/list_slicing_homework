@@ -6,4 +6,6 @@ def main(royxat):
     Qaytaradi:
         bool: javob (True yoki False)
     """
-    return
+    return royxat[::]==royxat[::-1]
+print(main([2, 0, 0, 2]))
+print(main([2, 0, 2, 6]))

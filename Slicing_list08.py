@@ -7,4 +7,7 @@ def main(royxat, n):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    return royxat[-1::-n]
+print(main([8000, 12000, 10000, 9500, 11000, 7000, 13000],2))
+print(main([8000, 12000, 10000, 9500, 11000, 7000, 13000],3))
+

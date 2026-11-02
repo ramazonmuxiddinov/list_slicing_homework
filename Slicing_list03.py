@@ -6,4 +6,5 @@ def main(royxat):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    return royxat[::]+royxat[-1::-1]
+print(main([26, 178, 74]))

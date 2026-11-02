@@ -7,4 +7,5 @@ def main(royxat, n):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    return royxat[n::]
+print(main(["Python", "Matematika", "Ingliz tili", "Fizika"],2))

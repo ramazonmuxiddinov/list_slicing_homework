@@ -7,4 +7,5 @@ def main(fanlar, n):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    return fanlar[:n]+fanlar[n+1:]
+print(main(["Python", "Matematika", "Ingliz tili", "Fizika"],1))

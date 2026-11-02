@@ -6,4 +6,5 @@ def main(daromad):
     Qaytaradi:
         int: natija
     """
-    return
+    return abs(sum(daromad[:3])-sum(daromad[3::]))
+print(main([6500000, 6500000, 6800000, 7000000, 7200000, 7200000]))

@@ -7,4 +7,8 @@ def main(qadamlar, n):
     Qaytaradi:
         int: natija
     """
-    return
+    return sum(qadamlar[-n:])-sum(qadamlar[:n])
+print(main([8000, 12000, 10000, 9500, 11000, 7000, 13000],3))
+print(main([8000, 12000, 10000, 9500, 11000, 7000, 13000],2))
+
+

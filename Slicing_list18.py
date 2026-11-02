@@ -8,4 +8,5 @@ def main(fanlar, i, fan):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    return fanlar[:i]+[fan]+fanlar[i:]
+print(main(["Python", "Matematika", "Ingliz tili", "Fizika"],2,"Algoritmlar"))
